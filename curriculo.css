@@ -1,0 +1,47 @@
+/* Style the heading */
+h1 {
+    text-align: center;
+}
+
+/* Style the form container */
+#formulario-curriculo {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+/* Style the form labels */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Style the form inputs */
+input[type="text"],
+input[type="email"],
+input[type="file"],
+input[type="submit"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+/* Remove default input styles */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="file"]:focus {
+    outline: none;
+}
