@@ -1,0 +1,15 @@
+body{
+    background-color: aquamarine;
+}
+
+/*  usando javascript com css e html */
+#qdro {
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    margin-top: 20px;
+}
+
+#qdro.ativo{
+    background-color: black;
+}
